@@ -5,15 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) 启动",
-            "type": "cppvsdbg",
+            "name": "Python: 当前文件",
+            "type": "python",
             "request": "launch",
-            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false
-        }
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
     ]
 }
