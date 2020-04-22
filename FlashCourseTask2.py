@@ -1,7 +1,4 @@
 
-
-
-
 def confession(name):
     while True:
         answer = input('%s, Do you confess? Yes or No?:' %(name))
